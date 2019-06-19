@@ -17,7 +17,9 @@ var arr = [10,20,30];
   Return the first item in the given array.
 */
 
-//Code Here
+function first(arr){
+  return [0];
+}
 
 
 
@@ -32,7 +34,9 @@ var arr = [40,50,60];
   Return the last item in the given array.
 */
 
-//Code Here
+function lasst(arr){
+  return arr.length
+}
 
 
 
@@ -47,7 +51,10 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
+function looper(family){
+  rteurn
+  for (family = 0; family.length-1; alert)
+}
 
 
 
@@ -62,7 +69,10 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the letters array, alerting every item in the array.
 */
 
-//Code Here
+function reversedLooper(letters) {
+  for ( let i = letters-1; i>=0; i--)
+  return letters[i]
+}
 
 
 
@@ -77,7 +87,10 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
   Return an array that contains the even numbers from the nums array.
 */
 
-//Code Here
+function evenFinder (num){
+  for (num = 0; num%2; num++)
+  return 
+}
 
 
 
@@ -128,7 +141,9 @@ var getRandomArbitrary = function() {
   If it is, return true, if it's not, return false
 */
 
-//Code Here
+function finder (array){
+  let randomNumber = getRandomArbitrary()
+}
 
 
 
@@ -157,7 +172,10 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   addItem() --> [];
 */
 
-//Code Here
+function removeItem (myGroceryList, remove){
+  for (var i = 0; i <= myGroceryList.length; i++){
+    if (myGroceryList[i] === remove) myGroceryList.splice(i, 1);
+}
 
 
 
@@ -167,7 +185,10 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns the array.
 */
 
-//Code Here
+function maker(num){ for(var i=1;i<215;i++)
+  reurn [num]
+
+}
 
 
 
@@ -183,7 +204,9 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
   Your output should look like this -> [15, 19, 26, 29, 35, 44, 58]
 */
   
-//Code Here
+function addTen (numbers){
+  
+}
 
 
 
