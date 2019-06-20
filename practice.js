@@ -89,7 +89,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 function evenFinder (num){
   for (num = 0; num%2; num++)
-  return 
+  return arr[num];
 }
 
 
